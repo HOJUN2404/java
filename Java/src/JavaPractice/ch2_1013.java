@@ -12,7 +12,7 @@ public class ch2_1013 {
 		
 		Scanner scn = new Scanner(System.in);
 		
-//		// 10월 13일 면접을 보고와서 While 복습
+//		// 10월 13일 면접을 보고와서 While 복습 [백준 10952]
 //		
 //		
 //		while(true) {
@@ -31,7 +31,7 @@ public class ch2_1013 {
 
 		
 		
-		// BufferedReader 를 사용해서 for문을 풀어보자.
+		// BufferedReader 를 사용해서 for문을 풀어보자. [백준 10952]
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
