@@ -1,0 +1,38 @@
+package baekJoon;
+
+import java.util.Scanner;
+
+public class Ex5_2562 {
+
+	public static void main(String[] args) {
+		
+		Scanner scn = new Scanner(System.in);
+		
+		int[] arr = new int[9];
+
+		
+		int index=0;
+		
+		for (int i = 0 ; i <9 ; i++) 
+		{
+			arr[i] = scn.nextInt();
+		}
+		
+		int max=arr[0];
+		
+		for (int i = 0 ; i<9 ; i++) 
+		{
+			if (arr[i] > max)
+			{
+				max = arr[i];
+				index = i;
+			}
+		}
+		
+		System.out.println(max);
+		
+		System.out.println(index+1);
+		
+	}
+
+}
