@@ -47,5 +47,7 @@ public class ch4_1017 {
 		System.out.println(Arrays.toString(a3));
 		System.out.println(Arrays.toString(a4));
 		
+		
+		
 	}
 }
