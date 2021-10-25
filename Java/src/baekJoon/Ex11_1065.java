@@ -22,7 +22,7 @@ public class Ex11_1065 {
 			
 			if(n == 1000) 
 			{
-				n = 999;
+				n = 999;  
 			}
 			
 			for(int i = 100 ; i <= n ; i++)
